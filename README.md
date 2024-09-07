@@ -37,10 +37,7 @@ Faça suas alterações e commit: git commit -m 'Descrição da sua alteração'
 Envie um pull request: Abra um pull request para que suas alterações sejam revisadas.
 Contribuidores:
 
-Seu Nome: Criador do projeto
-Licença:
-
-[Escolha a licença apropriada para o seu projeto, como MIT ou Apache-2.0]
+Seu Nome: Louise Tormes
 
 Agradecimentos:
 
