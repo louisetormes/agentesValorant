@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Imersão_ALURA</title>
+</head>
+
+<body>
+    <header>
+        <h1>Agentes do Valorant</h1>
+    </header>
+    <main>
+        <section>
+            <img src="valorant.png" alt="vava_center">
+            <input type="text" placeholder="Encontre seu agente preferido" id="campo-pesquisa" >
+            <div class="modulo-filtro">
+            <select id="posicao-seletor">
+                <option value="all">Todas as Posições</option>
+                <option value="Duelista">Duelista</option>
+                <option value="Controlador">Controlador</option>
+                <option value="Iniciador">Iniciador</option>
+                <option value="Sentinela">Sentinela</option>
+            </select>
+            <button onclick="filtrarAgentePorPosicao()">Filtrar por posição do agente</button>
+        </div>
+            <button onclick="buscar()">Let's go!</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+			</section>
+			<!-- Popup oculto -->
+				<div id="popup" class="popup">
+					<div class="popup-content">
+						<span class="close-btn">&times;</span>
+						<h2 id="character-name">Habilidades de </h2>
+						<ul id="character-abilities"></ul>
+					</div>
+				</div>
+    </main>
+    <footer>
+        <p>2024 - Agentes do Valorant. Todos direitos reservados.</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+	<script src="habilidades.js"></script>
+    <script src="filtro.js"></script>
+</body>
+
+</html>
